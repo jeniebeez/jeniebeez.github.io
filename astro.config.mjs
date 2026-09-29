@@ -6,7 +6,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://jeniebeez.github.io',
+	// 注意：因為你的 repo 是 jeniebeez.github.io（根目錄個人站），所以不需要設定 base！
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
