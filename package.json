@@ -1,5 +1,5 @@
 {
-  "name": "jeniebeez.github.io",
+  "name": "dotcv",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -9,16 +9,16 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "screenshots": "node scripts/generate-screenshots.mjs",
+    "generate:comparison": "node scripts/generate-comparison.mjs",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^8.0.2",
-    "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.3.5",
-    "sharp": "^0.35.0"
+    "astro": "^7.2.0",
+    "puppeteer": "^25.8.0",
+    "zod": "^4.4.3"
   },
-  "allowScripts": {
-    "esbuild": true
+  "devDependencies": {
+    "@types/node": "^26.2.0"
   }
 }

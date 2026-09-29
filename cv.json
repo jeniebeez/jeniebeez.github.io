@@ -1,0 +1,246 @@
+{
+  "profile": {
+    "name": "駱詠仁 (Richard Lo)",
+    "title": "AI & LLM 軟體工程師 (Software Engineer)",
+    "email": "richardloyj@gmail.com",
+    "location": "新北市, Taiwan",
+    "website": "https://jeniebeez.github.io",
+    "avatar": "/avatar.jpg",
+    "bio": "• 專注於 Multi-Agent, RAG 架構與低成本引導技術，研究成果獲選日本國際研討會 GPW Oral 口頭發表，曾獲全國大專 AI 競賽第 11 名（508 隊）。\n• 馬來西亞成長背景，精通中、英、馬來語及粵臺語多語協作，具日本芝浦工業大學交換研習經驗。\n• 大學雙主修會計與社會學，融合事務所查帳與自主創業歷練，兼具工程邏輯與商業洞察，擅長推動 AI 技術落地。\n• 跨領域轉考資工，學業表現優異，連續榮獲教育部優秀僑生獎學金與學海飛颺補助，具備迅速拆解未知技術問題的自主學習與實作能力。",
+    "socials": [
+      {
+        "plattform": "GitHub",
+        "url": "https://github.com/jeniebeez",
+        "username": "jeniebeez"
+      },
+      {
+        "plattform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/richardloyj/",
+        "username": "richardloyj"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "國立東華大學 人工智慧實驗室 (NDHU AI Lab)",
+      "role": "碩士班研究助理 (Graduate Research Assistant)",
+      "location": "花蓮, Taiwan",
+      "startDate": "2023-09",
+      "endDate": "2025-09",
+      "current": false,
+      "description": "主導與參與指導教授產學合作及重點科技研發計畫，負責 AI 語音資料 Pipeline 與賽事資訊自動化爬蟲整合。",
+      "highlights": [
+        "【星雲大師 AI 語音產學合作】音訊資料前處理（Audio2Text）：處理 3 小時影音資料，應用 DeepFilterNet 消除背景噪音，再透過 fast-whisper 模型高效轉譯為文字。",
+        "【依空法師 AI 語音產學合作】語音訓練資料前處理：處理 1 小時音訊資料，進行切片與規格化標註以適配 GPTSovits 語音合成模型。",
+        "【東華亮點計劃 - 高爾夫賽會 AI 整合系統】跨組織賽事爬蟲與維護：針對各大高爾夫協會（GAROC, TPGA, TSPGA, TLGA）與地方球場資訊實作自動化爬蟲，彙整整合至平台。"
+      ],
+      "technologies": ["Python", "fast-whisper", "DeepFilterNet", "GPTSovits", "Web Scraping", "Audio Processing"]
+    },
+    {
+      "company": "國立東華大學 (National Dong Hwa University)",
+      "role": "課程助教 (Teaching Assistant) - 初級程式設計（行動應用程式）",
+      "location": "花蓮, Taiwan",
+      "startDate": "2023-09",
+      "endDate": "2025-07",
+      "current": false,
+      "description": "擔任程式設計課程助教，主要負責全英語國際生之程式邏輯輔導與技術答疑。",
+      "highlights": [
+        "以流利全英語為國際生解答課程相關問題，輔導掌握 MIT App Inventor 方塊程式邏輯。",
+        "將專業資訊考卷與評分標準翻譯為精準英文版本，滿足跨文化教學需求。",
+        "主導考前與考後助教輔導課，負責國際生作業評量與考卷批改。"
+      ],
+      "technologies": ["MIT App Inventor", "English Instruction", "Cross-cultural Communication"]
+    },
+    {
+      "company": "國富浩華聯合會計師事務所 台北所 (Crowe Global)",
+      "role": "查帳／審計人員 (Auditor)",
+      "location": "台北市松山區, Taiwan",
+      "startDate": "2020-07",
+      "endDate": "2021-01",
+      "current": false,
+      "description": "執行企業審計專案，稽核企業財務報表與帳務合規性。",
+      "highlights": [
+        "審查企業客戶帳務資訊與內部控制流程，確保財務數據真實性與法令遵循。",
+        "編制客戶季度與年度財務報表與查核底稿，培養出嚴謹的數據邏輯與分析思維。"
+      ],
+      "technologies": ["Financial Auditing", "Data Analysis", "Internal Controls", "Excel"]
+    },
+    {
+      "company": "艾凱瑞國際有限公司 (I-Carry International Co., Ltd.)",
+      "role": "共同創辦人／經營管理主管 (Co-Founder & Operations Lead)",
+      "location": "台北市南港區, Taiwan",
+      "startDate": "2016-06",
+      "endDate": "2023-02",
+      "current": false,
+      "description": "於大三時期洞察全台外地學子生活需求創立公司，拓展全台高達 20 所大專院校合作網絡，服務滿意度高達 90%。",
+      "highlights": [
+        "統籌商品開發、供應鏈談判、倉儲與全台各大專院校物流配送流程。",
+        "負責營業財務預算、電子金融管理與成本模型核算，確保穩健營運。",
+        "領導跨部門團隊，培養出敏銳的商業價值嗅覺與面對未知挑戰的自主學習韌性。"
+      ],
+      "technologies": ["Product Development", "Supply Chain", "Financial Management", "Team Leadership", "Operations"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立東華大學 (National Dong Hwa University)",
+      "degree": "資訊工程學系 碩士 (M.S. in Computer Science and Information Engineering)",
+      "fieldOfStudy": "人工智慧、大型語言模型與自然語言處理 (AI / LLM / NLP)",
+      "startDate": "2023-09",
+      "endDate": "2026-06",
+      "location": "花蓮, Taiwan",
+      "highlights": [
+        "碩士論文：《狀態驅動的圍棋解說：結合 Harness 狀態機與檢索增強 Multi-Agent 大語言模型之研究》（State-Driven Go Commentary: Harnessing State Machines and Retrieval-Augmented Multi-Agent LLMs）。",
+        "論文成果獲選日本國際研討會《The 31st Game Programming Workshop (GPW)》口頭發表（Oral Presentation）。",
+        "連續兩年榮獲教育部「研究所優秀僑生獎學金」與東華大學校級優秀僑生就讀獎學金（112、113 學年度）。",
+        "核心修習課程：機器學習、人工智慧、深度學習、推薦系統、作業系統工程、電腦對局理論、最佳化與決策、區塊鏈原理與應用。"
+      ]
+    },
+    {
+      "institution": "芝浦工業大學 (Shibaura Institute of Technology, Japan)",
+      "degree": "交換留學研習生 (Course-Taking Sandwich Program for Master Student)",
+      "fieldOfStudy": "資訊科學 (Computer Science)",
+      "startDate": "2025-09",
+      "endDate": "2026-02",
+      "location": "東京, Japan",
+      "highlights": [
+        "榮獲教育部 114 學年度「學海飛颺」獎助出國留學補助赴日交換研習。",
+        "拓展國際科技視野，接軌海外先進研究與技術實務。"
+      ]
+    },
+    {
+      "institution": "天主教輔仁大學 (Fu Jen Catholic University)",
+      "degree": "先修學程 (Foundational CS Coursework)",
+      "fieldOfStudy": "計算機科學基礎 (Computer Science Fundamentals)",
+      "startDate": "2022-09",
+      "endDate": "2023-06",
+      "location": "新北市, Taiwan",
+      "highlights": [
+        "跨領域深耕資訊技術，系統性修習資料結構、演算法、物件導向等資工核心課程後錄取東華資工所。"
+      ]
+    },
+    {
+      "institution": "國立東華大學 (National Dong Hwa University)",
+      "degree": "雙學士 (B.B.A. in Accounting & B.A. in Sociology)",
+      "fieldOfStudy": "會計學系（B.B.A.）雙主修 社會學系（B.A.）",
+      "startDate": "2014-09",
+      "endDate": "2019-06",
+      "location": "花蓮, Taiwan",
+      "highlights": [
+        "融合會計審計邏輯與社會學洞察，兼具商業思維與人本關懷，擅長從使用者與商業價值端驅動技術落地。"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "AI & LLM Architecture",
+      "skills": [
+        "Multi-Agent Systems",
+        "Retrieval-Augmented Generation (RAG)",
+        "Prompt Engineering",
+        "Agentic Workflows & Orchestration",
+        "Harness Engineering",
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "category": "Programming & Frameworks",
+      "skills": [
+        "Python (主力語言)",
+        "PyTorch",
+        "TensorFlow",
+        "Java",
+        "Kotlin",
+        "C / C++",
+        "TypeScript",
+        "SQL"
+      ]
+    },
+    {
+      "category": "SWE Infrastructure & Tools",
+      "skills": [
+        "Git / GitHub",
+        "Linux",
+        "Docker",
+        "CI/CD (GitHub Actions)",
+        "Web Scraping",
+        "MIT App Inventor"
+      ]
+    },
+    {
+      "category": "Domain & Interdisciplinary Skills",
+      "skills": [
+        "商業敏銳度與成本最佳化",
+        "財務審計與報表分析 (Auditing)",
+        "供應鏈與專案管理",
+        "跨文化國際團隊協作"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "State-Driven Go Commentary: Multi-Agent RAG Framework",
+      "description": "針對圍棋高複雜度對局解說，提出結合 Harness 狀態機與 Multi-Agent RAG 架構之低成本、高品質 LLM 引導技術。獲選日本研討會 GPW Oral 口頭發表。",
+      "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=wTMxa2/record?r1=1&h1=0",
+      "technologies": ["Python", "Multi-Agent LLMs", "RAG", "Harness Engineering", "Game Theory", "NLP"],
+      "highlights": [
+        "設計狀態驅動控制機制，以精確引導 Multi-Agent 解說流程，大幅壓低調用成本並杜絕幻覺。",
+        "透過客觀棋盤幾何與形勢分析驗證架構效益，獲日本 The 31st Game Programming Workshop (GPW) 審查通過 Oral 發表。"
+      ]
+    },
+    {
+      "title": "全國大專 AI 競賽：圍棋棋力模仿與棋風辨識",
+      "description": "教育部主辦之全國大專院校人工智慧競賽，針對人類棋士各階段棋風與行棋風格進行深度特徵提取與模仿預測。",
+      "technologies": ["Python", "PyTorch", "Deep Learning", "Pattern Recognition", "Classification"],
+      "highlights": [
+        "從全國 508 支頂尖大專院校隊伍中脫穎而出，榮獲全國第 11 名（佳作）。",
+        "建構特徵提取與分類模型，精準辨識對局者段位與個人風格特徵。"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "生成式 AI 能力認證",
+      "issuer": "財團法人資訊工業策進會 (III)",
+      "date": "2024-12"
+    },
+    {
+      "title": "TOEIC 多益測驗 815 分 (聽力/閱讀雙精通)",
+      "issuer": "ETS 美國教育測驗服務社",
+      "date": "2025-01"
+    },
+    {
+      "title": "Google Cybersecurity Professional Certificate",
+      "issuer": "Google / Coursera",
+      "date": "2025-05",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/D1GWG0HFCUHO"
+    },
+    {
+      "title": "Information Technology Specialist - Python",
+      "issuer": "Certiport",
+      "date": "2024-11"
+    }
+  ],
+  "languages": [
+    {
+      "language": "英文 (English)",
+      "fluency": "聽/說/讀/寫 精通 (TOEIC 815)"
+    },
+    {
+      "language": "中文 (Mandarin)",
+      "fluency": "母語 (Native)"
+    },
+    {
+      "language": "馬來文 (Malay)",
+      "fluency": "聽/說/讀/寫 精通 (Fluent)"
+    },
+    {
+      "language": "臺語 (Taiwanese Hokkien)",
+      "fluency": "精通 (Fluent)"
+    },
+    {
+      "language": "粵語 (Cantonese)",
+      "fluency": "精通 (Fluent)"
+    }
+  ]
+}
