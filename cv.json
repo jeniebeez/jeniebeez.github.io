@@ -85,10 +85,8 @@
     {
       "institution": "國立東華大學 (National Dong Hwa University)",
       "degree": "資訊工程學系 碩士 (M.S. in Computer Science and Information Engineering)",
-      "fieldOfStudy": "人工智慧、大型語言模型與自然語言處理 (AI / LLM / NLP)",
       "startDate": "2023-09",
       "endDate": "2026-06",
-      "location": "花蓮, Taiwan",
       "highlights": [
         "碩士論文：《狀態驅動的圍棋解說：結合 Harness 狀態機與檢索增強 Multi-Agent 大語言模型之研究》（State-Driven Go Commentary: Harnessing State Machines and Retrieval-Augmented Multi-Agent LLMs）。",
         "論文成果獲選日本國際研討會《The 31st Game Programming Workshop (GPW)》口頭發表（Oral Presentation）。",
@@ -99,10 +97,8 @@
     {
       "institution": "芝浦工業大學 (Shibaura Institute of Technology, Japan)",
       "degree": "交換留學研習生 (Course-Taking Sandwich Program for Master Student)",
-      "fieldOfStudy": "資訊科學 (Computer Science)",
       "startDate": "2025-09",
       "endDate": "2026-02",
-      "location": "東京, Japan",
       "highlights": [
         "榮獲教育部 114 學年度「學海飛颺」獎助出國留學補助赴日交換研習。",
         "拓展國際科技視野，接軌海外先進研究與技術實務。"
@@ -110,11 +106,9 @@
     },
     {
       "institution": "天主教輔仁大學 (Fu Jen Catholic University)",
-      "degree": "先修學程 (Foundational CS Coursework)",
-      "fieldOfStudy": "計算機科學基礎 (Computer Science Fundamentals)",
+      "degree": "資訊應用先修學程 (Foundational CS Coursework)",
       "startDate": "2022-09",
       "endDate": "2023-06",
-      "location": "新北市, Taiwan",
       "highlights": [
         "跨領域深耕資訊技術，系統性修習資料結構、演算法、物件導向等資工核心課程後錄取東華資工所。"
       ]
@@ -122,10 +116,8 @@
     {
       "institution": "國立東華大學 (National Dong Hwa University)",
       "degree": "雙學士 (B.B.A. in Accounting & B.A. in Sociology)",
-      "fieldOfStudy": "會計學系（B.B.A.）雙主修 社會學系（B.A.）",
       "startDate": "2014-09",
       "endDate": "2019-06",
-      "location": "花蓮, Taiwan",
       "highlights": [
         "融合會計審計邏輯與社會學洞察，兼具商業思維與人本關懷，擅長從使用者與商業價值端驅動技術落地。"
       ]
