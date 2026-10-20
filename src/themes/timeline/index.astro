@@ -117,7 +117,13 @@ function formatDate(dateStr?: string | null, isCurrent?: boolean) {
                   <div>
                     <h3 class="node-title">{item.role}</h3>
                     <div class="node-company">
-                      <span class="company-name">{item.company}</span>
+                      {item.url ? (
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">
+                          <span class="company-name">{item.company} ↗</span>
+                        </a>
+                      ) : (
+                        <span class="company-name">{item.company}</span>
+                      )}
                       {item.location && <span class="location-dot">• {item.location}</span>}
                     </div>
                   </div>

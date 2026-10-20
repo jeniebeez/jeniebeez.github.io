@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "駱詠仁 (Richard Lo)",
-    "title": "AI & LLM 軟體工程師 (Software Engineer)",
+    "title": "AI / LLM 應用工程師 (LLM Application Engineer)",
     "email": "richardloyj@gmail.com",
     "location": "新北市, Taiwan",
     "website": "https://jeniebeez.github.io",
@@ -21,6 +21,22 @@
     ]
   },
   "experience": [
+    {
+      "company": "經濟部中小微企業數位轉型計畫 × 全國中小企業總會",
+      "role": "生成式 AI 培訓課程講師 (Lecturer - GenAI & Automation)",
+      "location": "花蓮, Taiwan",
+      "url": "https://www.support.sme.gov.tw/cloudsme/web/activity_detail.php?id=253",
+      "startDate": "2026-09",
+      "endDate": "2026-09",
+      "current": false,
+      "description": "受邀擔任經濟部中小及新創企業署「中小微企業數位轉型計畫」講師，於花蓮主講《跨平台 AI 工作流實戰：運用 Gemini、Canva 與 Google 表格打造企業即戰力》實務課程。",
+      "highlights": [
+        "主講對話式 AI 跨平台資源調度思維，教授在地觀光旅宿與農特產業運用 Gemini 自動生成行銷文案並無縫對接 Canva 商業提案與設計。",
+        "傳授利用 AI 自動編排 Google Sheets、混亂數據清洗與函數公式生成技巧，助中小微企業零門檻打造低成本自動化營運產線。",
+        "官方活動紀錄：https://www.support.sme.gov.tw/cloudsme/web/activity_detail.php?id=253"
+      ],
+      "technologies": ["Generative AI", "Gemini", "Canva", "Google Sheets Automation", "Workflow Design", "Public Speaking"]
+    },
     {
       "company": "國立東華大學 人工智慧實驗室 (NDHU AI Lab)",
       "role": "碩士班研究助理 (Graduate Research Assistant)",
@@ -110,7 +126,7 @@
       "startDate": "2022-09",
       "endDate": "2023-06",
       "highlights": [
-        "跨領域深耕資訊技術，系統性修習資料結構、演算法、物件導向等資工核心課程後錄取東華資工所。"
+        "跨領域深耕資訊應用與程式開發，扎實鍛鍊物件導向與系統實作能力，奠定資訊核心基礎並順利錄取東華資工所。"
       ]
     },
     {
@@ -136,16 +152,21 @@
       ]
     },
     {
-      "category": "Programming & Frameworks",
+      "category": "Programming & Frameworks (主力開發)",
       "skills": [
-        "Python (主力語言)",
-        "PyTorch",
-        "TensorFlow",
-        "Java",
+        "Python (主力語言 / 核心開發)",
         "Kotlin",
-        "C / C++",
-        "TypeScript",
+        "FastAPI",
+        "PyTorch",
         "SQL"
+      ]
+    },
+    {
+      "category": "程式碼閱讀、維護與除錯 (Code Reading & Maintenance)",
+      "skills": [
+        "C / C++（具備開源專案與範例代碼閱讀、除錯與維護修改能力）",
+        "C#（具備代碼邏輯閱讀、除錯與維護修改能力）",
+        "Java（具備代碼邏輯閱讀、除錯與維護修改能力）"
       ]
     },
     {
@@ -156,6 +177,7 @@
         "Docker",
         "CI/CD (GitHub Actions)",
         "Web Scraping",
+        "Streamlit",
         "MIT App Inventor"
       ]
     },
@@ -173,11 +195,22 @@
     {
       "title": "State-Driven Go Commentary: Multi-Agent RAG Framework",
       "description": "針對圍棋高複雜度對局解說，提出結合 Harness 狀態機與 Multi-Agent RAG 架構之低成本、高品質 LLM 引導技術。獲選日本研討會 GPW Oral 口頭發表。",
-      "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=wTMxa2/record?r1=1&h1=0",
+      "url": "https://hdl.handle.net/11296/trz68e",
       "technologies": ["Python", "Multi-Agent LLMs", "RAG", "Harness Engineering", "Game Theory", "NLP"],
       "highlights": [
         "設計狀態驅動控制機制，以精確引導 Multi-Agent 解說流程，大幅壓低調用成本並杜絕幻覺。",
         "透過客觀棋盤幾何與形勢分析驗證架構效益，獲日本 The 31st Game Programming Workshop (GPW) 審查通過 Oral 發表。"
+      ]
+    },
+    {
+      "title": "104 智能求職情報分析與自動投遞系統 (104 Job Pipeline Automation Engine)",
+      "description": "針對台灣就業市場實作端到端資料爬取、多維度規則過濾與 Streamlit 視覺化求職情報儀表板，支援永久履歷庫與客製自薦信管理。",
+      "url": "https://github.com/jeniebeez",
+      "technologies": ["Python", "Streamlit", "Web Scraping", "Data Pipeline", "JSONL", "Rule Engine"],
+      "highlights": [
+        "解析 104 職缺 API 代碼（年資與薪資代碼邏輯），高效爬取並結構化儲存數萬筆 JSONL 職缺數據。",
+        "設計多層過濾引擎（正負向關鍵字、地區、薪資門檻、雜訊過濾），精準剔除無效職缺。",
+        "實作 Streamlit 互動式儀表板，支援卡片式職缺管理、投遞狀態持久化與多版本履歷/自薦信快速匹配。"
       ]
     },
     {

@@ -22,6 +22,7 @@ export const experienceSchema = z.object({
     company: z.string(),
     role: z.string(),
     location: z.string().optional(),
+    url: z.url().optional(),
     startDate: z.string(), // exp. '2020-01-01 or 'Jan 2022'
     endDate: z.string().nullish(), // Present if not provided / null
     current: z.boolean().default(false),
